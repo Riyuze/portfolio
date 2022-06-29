@@ -27,12 +27,12 @@ const Home = () => {
             </div>
 
             <div>
-                <img src={HeroImage} alt="my profile" className='rounded-2xl mx-auto w-2/3 md:w-full scale-75'></img>
+                <img src={HeroImage} alt="my profile" className='rounded-2xl mx-auto w-2/3'></img>
             </div>
 
         </div>
     </div>
-  )
-}
+  );
+};
 
 export default Home
