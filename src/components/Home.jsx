@@ -1,9 +1,37 @@
-import React from 'react'
-import HeroImage from '../../assets/heroImage.png'
+import React from 'react';
+import HeroImage from '../assets/heroImage.png';
+import {RiArrowRightSFill} from 'react-icons/ri';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
+        <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
+
+            <div className='flex flex-col justify-center h-full'>
+                <h2 className='text-4xl sm:text-7xl font-bold text-white'>
+                    I'm an Electrical Engineering Student
+                </h2>
+                <p className='text-gray-500 py-4 max-w-md'>
+                    Even though I'm pursuing electrical engineering, my passions leans more towards computer programming and information technology.
+                    Currently, I'm tackling lots of projects which spans from web applications to machine learning.
+                </p>
+
+                <div>
+                    <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+                        Portfolio
+                        <span className='group-hover:rotate-90 duration-300'>
+                            <RiArrowRightSFill size={25}/>
+                        </span>
+                    </button>
+                </div>
+            </div>
+
+            <div>
+                <img src={HeroImage} alt="my profile" className='rounded-2xl mx-auto w-2/3 md:w-full scale-75'></img>
+            </div>
+
+        </div>
+    </div>
   )
 }
 
