@@ -7,13 +7,13 @@ const Portfolio = () => {
 
   const portfolios = [
     {
-      id: 1, src: MushroomClassification, demo:'https://nbviewer.org/github/Riyuze/mushroom-classification/blob/main/MushroomClassification%28ResNet50%29.ipynb', code: 'https://github.com/Riyuze/mushroom-classification'
+      id: 1, title: 'Mushroom Classification', src: MushroomClassification, demo:'https://nbviewer.org/github/Riyuze/mushroom-classification/blob/main/MushroomClassification%28ResNet50%29.ipynb', code: 'https://github.com/Riyuze/mushroom-classification'
     },
     {
-      id: 2, src: ManeTorakka, demo:'https://manetorakka.herokuapp.com/', code: 'https://github.com/Riyuze/mane-torakka'
+      id: 2, title: 'ManeTorakka', src: ManeTorakka, demo:'https://manetorakka.herokuapp.com/', code: 'https://github.com/Riyuze/mane-torakka'
     },
     {
-      id: 3, src: Kinoko, demo: 'https://riyuze.github.io/kinoko/', code: 'https://github.com/Riyuze/kinoko'
+      id: 3, title: 'Kinoko', src: Kinoko, demo: 'https://riyuze.github.io/kinoko/', code: 'https://github.com/Riyuze/kinoko'
     },
   ]
 
@@ -28,9 +28,11 @@ const Portfolio = () => {
 
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
 
-          {portfolios.map(({id, src, demo, code}) => (
+          {portfolios.map(({id, title, src, demo, code}) => (
 
           <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
+            
+            <span className='flex items-center justify-center text-xl font-bold'>{title}</span>
             <img src={src} alt='' className='rounded-md duration-200 hover:scale-105'></img>
 
             <div className='flex items-center justify-center'>
