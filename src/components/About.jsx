@@ -18,7 +18,7 @@ function About() {
             <b>"A journey of a thousand miles begins with a single step."</b> is a quote I live by.
             I truly believe learning is a lifelong process, getting up everyday and trying to be the best version of yourself
             is something we all need to do. Sure, giving it your all for just a day will not instantly produce results, 
-            but start doing it consistently and the result will come to you.
+            but start doing it consistently and the results will come to you.
           </p>
       </div>
     </div>
