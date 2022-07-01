@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1f2fd170.css",
+    "main.js": "/portfolio/static/js/main.1ce92ccf.js",
+    "static/media/MushroomClassification.gif": "/portfolio/static/media/MushroomClassification.3fa3b1ff682e7550b9e7.gif",
+    "static/media/heroImage.png": "/portfolio/static/media/heroImage.2d73e0873f71e7632c34.png",
+    "static/media/ManeTorakka.gif": "/portfolio/static/media/ManeTorakka.3b911e53703d76da6dc1.gif",
+    "static/media/Kinoko.gif": "/portfolio/static/media/Kinoko.b648d85c819c981a3f96.gif",
+    "static/media/react.png": "/portfolio/static/media/react.222b46ec12ee705ead71.png",
+    "static/media/cplusplus.png": "/portfolio/static/media/cplusplus.502a6d382c1eb5786f77.png",
+    "static/media/css.png": "/portfolio/static/media/css.e9d28f9786a12afee875.png",
+    "static/media/html.png": "/portfolio/static/media/html.d6c33eccc146b63bfaca.png",
+    "static/media/arduino.png": "/portfolio/static/media/arduino.154ab1ae78b64017758b.png",
+    "static/media/django.png": "/portfolio/static/media/django.2486451fca298ad2ab20.png",
+    "static/media/git.png": "/portfolio/static/media/git.b1472a80b81e487179cf.png",
+    "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.d40f8488227a8c769940.png",
+    "static/media/heroku.png": "/portfolio/static/media/heroku.761860d98822652cdf54.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.d99cfc190be2f4a862ff.png",
+    "static/media/python.png": "/portfolio/static/media/python.e80f54ac40860c436de9.png",
+    "static/media/sql.png": "/portfolio/static/media/sql.1528efc778cf4043fd0a.png",
+    "static/media/tailwind.png": "/portfolio/static/media/tailwind.73aafc13e459fcd65913.png",
+    "static/media/tensorflow.png": "/portfolio/static/media/tensorflow.de0b1d08a9cbbde1ec0c.png",
+    "index.html": "/portfolio/index.html",
+    "main.1f2fd170.css.map": "/portfolio/static/css/main.1f2fd170.css.map",
+    "main.1ce92ccf.js.map": "/portfolio/static/js/main.1ce92ccf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f2fd170.css",
+    "static/js/main.1ce92ccf.js"
+  ]
+}
