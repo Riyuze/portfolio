@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.809c4bdd.css",
+    "main.css": "/portfolio/static/css/main.4e2d07e1.css",
     "main.js": "/portfolio/static/js/main.9c463e3e.js",
     "static/media/MushroomClassification.gif": "/portfolio/static/media/MushroomClassification.3fa3b1ff682e7550b9e7.gif",
     "static/media/heroImage.png": "/portfolio/static/media/heroImage.2d73e0873f71e7632c34.png",
@@ -21,11 +21,11 @@
     "static/media/tailwind.png": "/portfolio/static/media/tailwind.73aafc13e459fcd65913.png",
     "static/media/tensorflow.png": "/portfolio/static/media/tensorflow.de0b1d08a9cbbde1ec0c.png",
     "index.html": "/portfolio/index.html",
-    "main.809c4bdd.css.map": "/portfolio/static/css/main.809c4bdd.css.map",
+    "main.4e2d07e1.css.map": "/portfolio/static/css/main.4e2d07e1.css.map",
     "main.9c463e3e.js.map": "/portfolio/static/js/main.9c463e3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.809c4bdd.css",
+    "static/css/main.4e2d07e1.css",
     "static/js/main.9c463e3e.js"
   ]
 }
