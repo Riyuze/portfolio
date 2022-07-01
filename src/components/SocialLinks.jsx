@@ -16,7 +16,7 @@ function SocialLinks() {
             id: 3, child: (<> Email <HiOutlineMail size={30}/> </>), href: 'mailto:kevo211001@gmail.com'
         },
         {
-            id: 4, child: (<> Resume <BsFillPersonLinesFill size={30}/> </>), href: '/resume/Resume.pdf', style: 'rounded-br-md', download: true,
+            id: 4, child: (<> Resume <BsFillPersonLinesFill size={30}/> </>), href: 'https://drive.google.com/file/d/1lbLENzC5TBP6U5S0isSmfmwApU--Gy2M/view?usp=sharing', style: 'rounded-br-md', download: true,
         },
     ];
 
