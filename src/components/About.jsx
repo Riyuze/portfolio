@@ -8,11 +8,17 @@ function About() {
           <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
         </div>
           <p className='text-xl mt-20'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            Henlo! I'm Kevin Tandavo, an ordinary guy trying to be a better version of himself everyday. Right now, I'm in
+            the midst of learning more about the programming world, learning new languages and syntax by tackling 
+            on new projects. Being an electrical engineering student, I didn't get to attend a lot of programming courses.
+            This led to me learning most of the things I know today by myself, as it turns out, I fell in love with learning.
           </p>
           <br></br>
           <p className='text-xl'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, se
+            <b>"A journey of a thousand miles begins with a single step."</b> is a quote I live by.
+            I truly believe learning is a lifelong process, getting up everyday and trying to be the best version of yourself
+            is something we all need to do. Sure, giving it your all for just a day will not instantly produce results, 
+            but start doing it consistently and the result will come to you.
           </p>
       </div>
     </div>
