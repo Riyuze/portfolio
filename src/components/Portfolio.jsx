@@ -5,17 +5,17 @@ import Kinoko from '../assets/portfolio/Kinoko.gif';
 
 const Portfolio = () => {
 
-  const portfolios = [
-    {
-      id: 1, title: 'Mushroom Classification', src: MushroomClassification, demo:'https://nbviewer.org/github/Riyuze/mushroom-classification/blob/main/MushroomClassification%28ResNet50%29.ipynb', code: 'https://github.com/Riyuze/mushroom-classification'
-    },
-    {
-      id: 2, title: 'ManeTorakka', src: ManeTorakka, demo:'https://manetorakka.herokuapp.com/', code: 'https://github.com/Riyuze/mane-torakka'
-    },
-    {
-      id: 3, title: 'Kinoko', src: Kinoko, demo: 'https://riyuze.github.io/kinoko/', code: 'https://github.com/Riyuze/kinoko'
-    },
-  ]
+    const portfolios = [
+      {
+        id: 1, title: 'Mushroom Classification', src: MushroomClassification, demo:'https://nbviewer.org/github/Riyuze/mushroom-classification/blob/main/MushroomClassification%28ResNet50%29.ipynb', code: 'https://github.com/Riyuze/mushroom-classification'
+      },
+      {
+        id: 2, title: 'ManeTorakka', src: ManeTorakka, demo:'https://manetorakka.herokuapp.com/', code: 'https://github.com/Riyuze/mane-torakka'
+      },
+      {
+        id: 3, title: 'Kinoko', src: Kinoko, demo: 'https://riyuze.github.io/kinoko/', code: 'https://github.com/Riyuze/kinoko'
+      },
+    ]
 
   return (
     <div name='portfolio' className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'>
@@ -50,7 +50,7 @@ const Portfolio = () => {
 
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Portfolio
