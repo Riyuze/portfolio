@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from ".";
+import { RobotCanvas } from "./canvas";
 
 const Hero = () => {
     return (
@@ -23,14 +23,30 @@ const Hero = () => {
                         <p
                             className={`${styles.heroSubText} mt-2 text-white-100`}
                         >
-                            A full-stack developer with a{" "}
+                            A full-stack developer with an{" "}
                             <br className="sm:hidden block" />
-                            passion for artificial intelligence.
+                            interest in artificial intelligence.
                         </p>
                     </div>
                 </div>
 
-                <ComputersCanvas />
+                <RobotCanvas />
+
+                <div className="absolute bottom-10 w-full flex justify-center items-center">
+                    <a href="#about">
+                        <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-center p-2">
+                            <motion.div
+                                animate={{ y: [-12, 12, -12] }}
+                                transition={{
+                                    duration: 2,
+                                    repeat: Infinity,
+                                    repeatType: "loop",
+                                }}
+                                className="w-3 h-3 rounded-full bg-secondary mb-1"
+                            />
+                        </div>
+                    </a>
+                </div>
             </div>
         </>
     );
