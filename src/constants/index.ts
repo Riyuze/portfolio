@@ -22,9 +22,13 @@ import {
     commsult,
     ocbc,
     uphcollege,
-    carrent,
-    jobit,
-    tripguide,
+    chatto,
+    facemask,
+    karate_trainer,
+    kinoko,
+    manetorakka,
+    mushroom,
+    reacto,
 } from "../assets";
 
 export const navLinks = [
@@ -180,67 +184,131 @@ const experiences = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Mushrooom Classification",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "An image classification project which detects different kinds of mushroom species using Keras and Tensorflow. Image Classification is a Machine Learning module that trains itself from an existing dataset of multiclass images and develops a model for future prediction of similar images not encountered during training. Developed using Convolutional Neural Network (CNN).",
         tags: [
             {
-                name: "react",
-                color: "blue-text-gradient",
+                name: "machine-learning",
             },
             {
-                name: "mongodb",
-                color: "green-text-gradient",
+                name: "image-classification",
             },
             {
-                name: "tailwind",
-                color: "pink-text-gradient",
+                name: "tensorflow",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: mushroom,
+        source_code_link: "https://github.com/Riyuze/mushroom-classification",
     },
     {
-        name: "Job IT",
+        name: "Kinoko",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "A simple website used to detect different kinds of mushroom species. Model was built using Tensorflow and was compiled using TensorflowJS. ",
         tags: [
+            {
+                name: "machine-learning",
+            },
+            {
+                name: "tensorflow",
+            },
             {
                 name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: kinoko,
+        source_code_link: "https://github.com/Riyuze/kinoko",
     },
     {
-        name: "Trip Guide",
+        name: "MoneyTracker (ManeTorakka)",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "A simple web app to track your money, built using Django framework and was deployed on Heroku. Aesthetics of the web app was made using Bootstrap.",
         tags: [
             {
-                name: "nextjs",
-                color: "blue-text-gradient",
+                name: "python",
             },
             {
-                name: "supabase",
-                color: "green-text-gradient",
+                name: "django",
             },
             {
-                name: "css",
-                color: "pink-text-gradient",
+                name: "bootstrap",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: manetorakka,
+        source_code_link: "https://github.com/Riyuze/mane-torakka",
+    },
+    {
+        name: "Chatto",
+        description:
+            "A simple chat app with rooms. Built using expressJS, nodeJS, socket.IO, and reactJS. Features multiple rooms where users can pick to chat on, and messages are sent in real-time.",
+        tags: [
+            {
+                name: "javascript",
+            },
+            {
+                name: "express",
+            },
+            {
+                name: "socket.io",
+            },
+        ],
+        image: chatto,
+        source_code_link: "https://github.com/Riyuze/chatto",
+    },
+    {
+        name: "Facemask Object Detection",
+        description:
+            "An object detection project which detects face masks in a picture using Keras and Tensorflow. Object detection is a computer technology related to computer vision and image processing that deals with detecting instances of semantic objects of a certain class in digital images and videos.",
+        tags: [
+            {
+                name: "python",
+            },
+            {
+                name: "machine-learning",
+            },
+            {
+                name: "tensorflow",
+            },
+        ],
+        image: facemask,
+        source_code_link: "https://github.com/Riyuze/facemask-object-detection",
+    },
+    {
+        name: "Karate Trainer",
+        description:
+            "A karate trainer made using mediapipe to detect how accurate a move is. Incorporates multiple technologies to create a more accurate prediction, normalisation of pictures was done with an object detection model built in Tensorflow and keypoints are acquired using MediaPipe. Desktop application was made using TKinter.",
+        tags: [
+            {
+                name: "python",
+            },
+            {
+                name: "machine-learning",
+            },
+            {
+                name: "tensorflow",
+            },
+        ],
+        image: karate_trainer,
+        source_code_link: "https://github.com/Riyuze/karate-trainer",
+    },
+    {
+        name: "Reacto E-Commerce",
+        description:
+            "A very simple e-commerce website made using ReactJS, this project was made purely using frontend. Features a login and register system, where the data is stored in localstorage. Items sold in the store are called using an API, and a cart system is implemented where users are able to add items and checkout.",
+        tags: [
+            {
+                name: "javascript",
+            },
+            {
+                name: "react",
+            },
+            {
+                name: "frontend",
+            },
+        ],
+        image: reacto,
+        source_code_link:
+            "https://github.com/Riyuze/reacto-ecommerce/tree/main",
     },
 ];
 

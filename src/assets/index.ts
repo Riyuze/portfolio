@@ -27,9 +27,13 @@ import commsult from "./company/commsult.png";
 import ocbc from "./company/ocbc.png";
 import uphcollege from "./company/uphcollege.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import chatto from "./projects/chatto.gif";
+import facemask from "./projects/facemask.png";
+import karate_trainer from "./projects/karate_trainer.png";
+import kinoko from "./projects/kinoko.gif";
+import manetorakka from "./projects/manetorakka.gif";
+import mushroom from "./projects/mushroom.gif";
+import reacto from "./projects/reacto.gif";
 
 export {
     backend,
@@ -58,7 +62,11 @@ export {
     commsult,
     ocbc,
     uphcollege,
-    carrent,
-    jobit,
-    tripguide,
+    chatto,
+    facemask,
+    karate_trainer,
+    kinoko,
+    manetorakka,
+    mushroom,
+    reacto,
 };
