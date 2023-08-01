@@ -6,17 +6,21 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import django from "./tech/django.svg";
+import express from "./tech/express.svg";
+import flask from "./tech/flask.svg";
+import golang from "./tech/golang.svg";
+import postgresql from "./tech/postgresql.svg";
+import python from "./tech/python.svg";
+import tensorflow from "./tech/tensorflow.svg";
 
 import bangkit from "./company/bangkit.png";
 import commsult from "./company/commsult.png";
@@ -35,17 +39,21 @@ export {
     github,
     menu,
     close,
-    css,
     docker,
+    django,
+    flask,
+    express,
+    golang,
+    postgresql,
+    python,
+    tensorflow,
     git,
-    html,
     javascript,
     mongodb,
     nodejs,
     reactjs,
     tailwind,
     typescript,
-    threejs,
     bangkit,
     commsult,
     ocbc,

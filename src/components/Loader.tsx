@@ -6,7 +6,7 @@ const Loader = () => {
     return (
         <Html className="flex w-full justify-center">
             <span>
-                <p className="text-lg text-white font-semibold mt-10">
+                <p className="text-lg text-white font-semibold">
                     {progress.toFixed(2)}%
                 </p>
             </span>

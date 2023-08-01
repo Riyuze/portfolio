@@ -3,10 +3,15 @@ import {
     backend,
     creator,
     web,
+    django,
+    flask,
+    express,
+    golang,
+    postgresql,
+    python,
+    tensorflow,
     javascript,
     typescript,
-    html,
-    css,
     reactjs,
     tailwind,
     nodejs,
@@ -20,7 +25,6 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -59,12 +63,8 @@ const services = [
 
 const technologies = [
     {
-        name: "HTML 5",
-        icon: html,
-    },
-    {
-        name: "CSS 3",
-        icon: css,
+        name: "Python",
+        icon: python,
     },
     {
         name: "JavaScript",
@@ -75,6 +75,10 @@ const technologies = [
         icon: typescript,
     },
     {
+        name: "Golang",
+        icon: golang,
+    },
+    {
         name: "React JS",
         icon: reactjs,
     },
@@ -83,16 +87,32 @@ const technologies = [
         icon: tailwind,
     },
     {
+        name: "Django",
+        icon: django,
+    },
+    {
+        name: "Flask",
+        icon: flask,
+    },
+    {
+        name: "Express",
+        icon: express,
+    },
+    {
         name: "Node JS",
         icon: nodejs,
+    },
+    {
+        name: "PostgreSQL",
+        icon: postgresql,
     },
     {
         name: "MongoDB",
         icon: mongodb,
     },
     {
-        name: "Three JS",
-        icon: threejs,
+        name: "Tensforflow",
+        icon: tensorflow,
     },
     {
         name: "git",
