@@ -8,7 +8,6 @@ import close from "./close.svg";
 
 import docker from "./tech/docker.png";
 import git from "./tech/git.png";
-import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
@@ -16,7 +15,6 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import django from "./tech/django.svg";
 import express from "./tech/express.svg";
-import flask from "./tech/flask.svg";
 import golang from "./tech/golang.svg";
 import postgresql from "./tech/postgresql.svg";
 import python from "./tech/python.svg";
@@ -45,14 +43,12 @@ export {
     close,
     docker,
     django,
-    flask,
     express,
     golang,
     postgresql,
     python,
     tensorflow,
     git,
-    javascript,
     mongodb,
     nodejs,
     reactjs,

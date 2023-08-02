@@ -49,9 +49,9 @@ const About = () => {
                 className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
             >
                 I'm a full-stack developer with experience in <b>Python</b>,{" "}
-                <b>TypeScript</b>, <b>JavaScript</b>, and <b>Golang</b>, with
+                <b>TypeScript</b>, and <b>Golang</b>, with
                 proficiency in frameworks and libraries like <b>React</b>,{" "}
-                <b>Express</b>, <b>Node.js</b>, <b>Django</b>, <b>Flask</b>, and {" "}
+                <b>Express</b>, <b>Node.js</b>, <b>Django</b>, and {" "}
                 <b>Go-chi</b>. I'm also interested in artificial intelligence
                 and have worked with <b>Tensorflow</b> to create machine
                 learning models. I'm an avid learner and love to tinker in my

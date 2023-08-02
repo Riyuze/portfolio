@@ -4,13 +4,11 @@ import {
     creator,
     web,
     django,
-    flask,
     express,
     golang,
     postgresql,
     python,
     tensorflow,
-    javascript,
     typescript,
     reactjs,
     tailwind,
@@ -37,8 +35,16 @@ export const navLinks = [
         title: "About",
     },
     {
-        id: "work",
-        title: "Work",
+        id: "exp",
+        title: "Experiences",
+    },
+    {
+        id: "tech",
+        title: "Tech",
+    },
+    {
+        id: "works",
+        title: "Projects",
     },
     {
         id: "contact",
@@ -71,10 +77,6 @@ const technologies = [
         icon: python,
     },
     {
-        name: "JavaScript",
-        icon: javascript,
-    },
-    {
         name: "TypeScript",
         icon: typescript,
     },
@@ -93,10 +95,6 @@ const technologies = [
     {
         name: "Django",
         icon: django,
-    },
-    {
-        name: "Flask",
-        icon: flask,
     },
     {
         name: "Express",

@@ -52,8 +52,8 @@ const RobotCanvas = () => {
         <Canvas
             frameloop="demand"
             shadows
-            camera={{ position: [20, 3, 4], fov: 25 }}
-            gl={{ preserveDrawingBuffer: true }}
+            camera={{ position: [20, 3, 9], fov: 25 }}
+            gl={{ preserveDrawingBuffer: true, alpha: true }}
         >
             <Suspense fallback={<CanvasLoader />}>
                 <OrbitControls
