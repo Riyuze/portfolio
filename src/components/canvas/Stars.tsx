@@ -1,6 +1,8 @@
 import { useState, useRef, Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 import * as random from "maath/random/dist/maath-random.esm";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -11,8 +13,14 @@ const Stars = (props: any) => {
     );
 
     useFrame((_, delta) => {
-        ref.current.rotation.x -= delta / 10;
-        ref.current.rotation.y -= delta / 10;
+        if (ref.current) {
+            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+            // @ts-ignore
+            ref.current.rotation.x -= delta / 10;
+            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+            // @ts-ignore
+            ref.current.rotation.y -= delta / 10;
+        }
     });
 
     return (
