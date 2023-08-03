@@ -182,7 +182,7 @@ const experiences = [
 
 const projects = [
     {
-        name: "Mushrooom Classification",
+        name: "Mushroom Classification",
         description:
             "An image classification project which detects different kinds of mushroom species using Keras and Tensorflow. Image Classification is a Machine Learning module that trains itself from an existing dataset of multiclass images and develops a model for future prediction of similar images not encountered during training. Developed using Convolutional Neural Network (CNN).",
         tags: [
