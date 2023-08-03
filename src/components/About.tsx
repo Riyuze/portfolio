@@ -48,14 +48,13 @@ const About = () => {
                 variants={fadeIn("", "", 0.1, 1)}
                 className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
             >
-                I'm a full-stack developer with experience in <b>Python</b>,{" "}
-                <b>TypeScript</b>, and <b>Golang</b>, with
-                proficiency in frameworks and libraries like <b>React</b>,{" "}
-                <b>Express</b>, <b>Node.js</b>, <b>Django</b>, and {" "}
-                <b>Go-chi</b>. I'm also interested in artificial intelligence
-                and have worked with <b>Tensorflow</b> to create machine
-                learning models. I'm an avid learner and love to tinker in my
-                free time.
+                A full-stack developer with experience in <b>Python</b>,{" "}
+                <b>TypeScript</b>, and <b>Golang</b>, with proficiency in
+                frameworks and libraries like <b>React</b>, <b>Express</b>,{" "}
+                <b>Node.js</b>, <b>Django</b>, and <b>Go-chi</b>. Interested in
+                artificial intelligence and have worked with <b>Tensorflow</b>{" "}
+                to create machine learning models. An avid learner and love to
+                tinker.
             </motion.p>
 
             <div className="mt-20 flex flex-wrap gap-10">
