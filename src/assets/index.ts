@@ -13,12 +13,12 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import django from "./tech/django.svg";
-import express from "./tech/express.svg";
-import golang from "./tech/golang.svg";
-import postgresql from "./tech/postgresql.svg";
-import python from "./tech/python.svg";
-import tensorflow from "./tech/tensorflow.svg";
+import django from "./tech/django.png";
+import express from "./tech/express.png";
+import golang from "./tech/golang.png";
+import postgresql from "./tech/postgresql.png";
+import python from "./tech/python.png";
+import tensorflow from "./tech/tensorflow.png";
 
 import bangkit from "./company/bangkit.png";
 import commsult from "./company/commsult.png";
